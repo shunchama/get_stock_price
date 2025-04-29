@@ -67,13 +67,13 @@ def main():
     owning_list=[
         "4755.T","7201.T","9432.T","9501.T"
     ]
-    list=[
+    check_list=[
         "7011.T","7012.T","7013.T","7014.T"
     ]
     
     print_index(index_list)
     print_price(owning_list)
-    print_price(list)
+    print_price(check_list)
 
 if __name__=="__main__":
     main()
